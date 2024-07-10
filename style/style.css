@@ -33,8 +33,6 @@
     border-radius: 8px;
     padding: 17px 24px 17px 24px;
 
-    opacity: 0.8;
-
 
 }
 
@@ -214,3 +212,122 @@ div img {
     margin: 10px 0px;
     object-fit: contain;
 }
+    
+    .card-contenir{
+        margin-top: 24px;
+        display: flex;
+    justify-content: space-between;
+    
+   
+
+    gap: 50px;
+      
+    }
+    .card{
+        border-radius: 16px;
+    padding: 40px;
+
+        background: rgba(255, 76, 30, 0.05);
+
+    }
+    .card1{
+        border-radius: 16px;
+    padding: 40px;
+
+    background: rgba(0, 76, 232, 0.05);
+
+    }
+    .card2{
+        border-radius: 16px;
+    padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
+    }
+    
+    .card .image-box img{
+
+     width: 39.68px;
+     height: 45px;
+    }
+    .card1 .image-box img{
+
+        width: 39.68px;
+        height: 45px;
+       }
+       .card2 .image-box img{
+
+        width: 39.68px;
+        height: 45px;
+       }
+
+    .p{
+        color: rgb(13, 19, 33);
+       font-family: Azeret Mono;
+       font-size: 11px;
+       font-weight: 400;
+       line-height: 15px;
+       
+        opacity: 0.7;
+
+    }
+    .link{
+        text-decoration: none;
+        color: none;
+    }
+
+    .bcg-img{
+        max-width: 100%;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+    }
+
+    .sec-title1 {
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 34px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .sec-description1{
+        color: rgb(255, 255, 255);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: center;
+      opacity: 0.7;
+      margin-bottom: 30px;
+    }
+
+    .btn-color1{
+        background: rgb(255, 255, 255);
+        color: rgb(13, 19, 33);
+    }
+
+    .input{
+        background: rgb(255, 255, 255);
+        color: rgb(13, 19, 33);
+        box-sizing: border-box;
+      border-radius: 8px;
+      width: 548px;
+       height: 57px;
+       display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+       align-items: center;
+        padding: 19px 20px 19px 20px;
+
+    }
+
+    .search{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
